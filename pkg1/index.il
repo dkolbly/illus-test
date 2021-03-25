@@ -1,4 +1,4 @@
-package_loaded = "pkg1_from_tag1";
+package_loaded = "pkg1_from_branch1"; // back to this!
 
 // use "part1";
 // use "part2";
