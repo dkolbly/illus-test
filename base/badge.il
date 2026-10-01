@@ -9,8 +9,9 @@ import (
 // Inset is the margin between a tile's edge and a badge placed on it.
 function Inset(size) = size/10;
 
-// Badge: a round badge with a short label, drawn in its own frame,
-// rect(0, 0, size, size).  The disc is filled with `fill` (was `tint` before v0.2.0).
+/// Badge: a round badge with a short label, drawn in its own frame,
+/// rect(0, 0, size, size).  The disc is filled with `fill` (was `tint` before v0.2.0).
+/// @component
 module Badge(size=8mm, label="!", fill="#d13212") {
   path.Path() {
     path.Stroke("white");
